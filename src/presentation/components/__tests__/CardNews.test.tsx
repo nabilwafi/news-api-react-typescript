@@ -1,8 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import CardNews from "../CardNews";
-import { INewsApiArticle } from "../../../domain/entities/News";
 
-const mockArticle: INewsApiArticle = {
+const mockArticle = {
   title: "Sample Article",
   source: {
     id: "123",
